@@ -1,0 +1,81 @@
+site_name: Internal Developer Platform
+theme: 
+  name: material
+  custom_dir: overrides
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  logo: assets/logo.png
+  favicon: assets/logo.ico
+  icon:
+    repo: fontawesome/brands/gitlab
+  features:
+    - header.autohide
+    - announce.dismiss
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
+    - toc.follow
+    - navigation.top
+plugins:
+  - tags
+  - search
+  - glightbox
+markdown_extensions: 
+  - attr_list
+  - md_in_html
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - abbr
+  - pymdownx.snippets
+  - tables
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+extra_css:
+  - stylesheets/extra.css
+extra:
+  generator: false
+repo_url: https://github.com/iiddoo/idp-doc-site
+nav:
+  - About:
+    - index.md
+    - Background: background.md
+    - Our Mission: mission.md
+    - The Team: team.md
+    - Success Factors: factors.md
+    - IDP Overview: idp.md
+    - Workflow in IDP: opsflow.md
+    - Catalog in IDP: catalog.md
+    - Quality Center in IDP: analytics.md
+    - Developer Portal in IDP: portal.md
+
+
+
+
