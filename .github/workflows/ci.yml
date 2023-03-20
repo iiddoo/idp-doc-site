@@ -18,5 +18,5 @@ jobs:
           key: ${{ github.ref }}
           path: .cache
       - run: pip3 install mkdocs-material 
-      - run: pip3fix install glightbox 
+      - run: pip3 install glightbox 
       - run: mkdocs gh-deploy --force
