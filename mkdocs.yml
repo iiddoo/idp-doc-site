@@ -64,11 +64,10 @@ extra:
   generator: false
 repo_url: https://github.com/iiddoo/idp-doc-site
 nav:
-  - About:
-    - Background: background.md
-    - Our Mission: mission.md
-    - The Team: team.md
-    - IDP Overview: idp.md
+  - Background: background.md
+  - Our Mission: mission.md
+  - The Team: team.md
+  - IDP Overview: idp.md
 
 
 
