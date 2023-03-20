@@ -64,17 +64,11 @@ extra:
   generator: false
 repo_url: https://github.com/iiddoo/idp-doc-site
 nav:
-  - About:
-    - index.md
-    - Background: background.md
-    - Our Mission: mission.md
-    - The Team: team.md
-    - Success Factors: factors.md
-    - IDP Overview: idp.md
-    - Workflow in IDP: opsflow.md
-    - Catalog in IDP: catalog.md
-    - Quality Center in IDP: analytics.md
-    - Developer Portal in IDP: portal.md
+  - About: index.md
+  - Background: background.md
+  - Our Mission: mission.md
+  - The Team: team.md
+  - IDP Overview: idp.md
 
 
 
